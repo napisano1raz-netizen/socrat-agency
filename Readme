@@ -1,1 +1,10 @@
-For starting
+# ООО СОКРАТ — Next.js сайт
+
+## Запуск
+
+```bash
+npm install
+npm run dev
+```
+
+Форма заявок сохраняется в `data/leads.json` через API `/api/lead`.

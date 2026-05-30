@@ -4,10 +4,18 @@
 
 :root {
   color-scheme: dark;
+  background: #020617;
+}
+
+html {
+  min-height: 100%;
+  background: #020617;
 }
 
 body {
-  @apply bg-ink text-slate-100 antialiased;
+  min-height: 100vh;
+  margin: 0;
+  @apply bg-slate-950 text-slate-100 antialiased;
   background-image: radial-gradient(circle at top, rgba(91, 124, 255, 0.15), transparent 35%);
 }
 

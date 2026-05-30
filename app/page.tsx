@@ -33,7 +33,7 @@ export default function HomePage() {
   };
 
   return (
-    <main className="min-h-screen bg-mesh">
+    <main className="min-h-screen bg-slate-950 bg-mesh text-slate-100">
       <section className="mx-auto max-w-6xl px-6 pb-16 pt-24">
         <div className="card shadow-glow p-10 md:p-14">
           <p className="mb-4 inline-flex rounded-full border border-neon/40 px-4 py-1 text-sm text-neon">AI Web Agency</p>

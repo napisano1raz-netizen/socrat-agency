@@ -74,7 +74,7 @@ export default function HomePage() {
             <input required placeholder="Телефон / Telegram" value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} className="rounded-xl border border-white/20 bg-black/20 px-4 py-3" />
             <textarea required placeholder="Кратко о задаче" value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })} className="min-h-28 rounded-xl border border-white/20 bg-black/20 px-4 py-3" />
             <button disabled={status === 'loading'} className="rounded-xl bg-gradient-to-r from-electric to-neon px-6 py-3 font-semibold text-ink transition hover:brightness-110 disabled:opacity-70">
-              {status === 'loading' ? 'Отправляем...' : 'Получить коммерческое предложение'}
+              {status === 'loading' ? 'Отправляем...' : 'Обсудить проект в Telegram'}
             </button>
             {status === 'success' && <p className="text-neon">Спасибо! Заявка отправлена.</p>}
             {status === 'error' && <p className="text-rose-400">Не удалось отправить заявку. Попробуйте ещё раз.</p>}
